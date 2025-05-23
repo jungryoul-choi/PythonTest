@@ -1,0 +1,361 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>717f09f0-ba24-4958-9688-8b533a889c38</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>07_BoolCharString\improved_string_formatting.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonNote</Name>
+    <RootNamespace>PythonNote</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="03_HelloWorld\HelloWorld2021.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="04_Syntax\FormatPractice\FormatPractice.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="05_Variable\Variable.py" />
+    <Compile Include="05_Variable\VariableInitialize.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="06_Number\FloatFunction.py" />
+    <Compile Include="06_Number\NumberDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="07_BoolCharString\improved_string_formatting.py" />
+    <Compile Include="07_BoolCharString\StringInterpolation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="08_ReadLine\input_two_string.py" />
+    <Compile Include="08_ReadLine\GetTypeDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="08_ReadLine\InputReadNumber\InputReadNumber.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="09_Operator\OperatorDescription.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="11_RelationalLogical\관계연산자.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="17_For\ForEnumerate.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="17_For\ForSum.py" />
+    <Compile Include="18_While_Do_ForEach\ForIn.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="19_Etc\BreakDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="19_Function\recursion_demo.py" />
+    <Compile Include="20_Array\ArrayAppend.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="20_Array\ArrayForEach.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="20_Array\ArrayInitialize.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="20_Array\ArrayModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="20_Array\list_demo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="24_DateTime\CalendarDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="24_DateTime\DateTimeDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="27_Collection\ListMethod.py" />
+    <Compile Include="27_String\StringClassNote\StringClassNote.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="27_String\StringCopy.py" />
+    <Compile Include="27_String\StringFunction.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="27_Collection\ListNote.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="32_Algorithms\02_CountAlgorithm\CountAlgorithm.py" />
+    <Compile Include="32_Algorithms\03_AverageAlgorithm\03_AverageAlgorithm.py" />
+    <Compile Include="32_Algorithms\04_MaxAlgorithm\MaxAlgorithm.py" />
+    <Compile Include="32_Algorithms\05_MinAlgorithm\MinAlgorithm.py" />
+    <Compile Include="32_Algorithms\06_NearAlgorithm\NearAlgorithm.py" />
+    <Compile Include="32_Algorithms\07_RankAlgorithm\RankAlgorithm.py" />
+    <Compile Include="32_Algorithms\08_SortAlgorithm\BubbleSortAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="32_Algorithms\08_SortAlgorithm\SortAlgorithm.py" />
+    <Compile Include="32_Algorithms\09_SearchAlgorithm\SearchAlgorithm.py" />
+    <Compile Include="32_Algorithms\10_MergeAlgorithm\MergeAlgorithm.py" />
+    <Compile Include="32_Algorithms\11_ModeAlgorithm\ModeAlgorithm.py" />
+    <Compile Include="32_Algorithms\12_GroupAlgorithm\GroupAlgorithm.py" />
+    <Compile Include="32_Algorithms\ArithmeticSequence\ArithmeticSequence.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="33_Object\AnonymousTypeDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="33_Object\CarClass.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="36_Constructor\CarConstructor.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="37_Method\ParamsDemo.py" />
+    <Compile Include="38_Property\AtProperty.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="39_Indexer\IteratorDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="39_Indexer\IteratorFibonacci.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="40_Lambda\LambdaExpression.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="40_Lambda\LambdaExpressionArgs.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="40_Lambda\LambdaExpressionWithPredicate.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="43_Inheritance\InheritanceDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="50_Generic\DictionaryOfString\DictionaryOfString.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="58_IO\OsInfo.py" />
+    <Compile Include="32_Algorithms\01_SumAlgorithm\SumAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="26_Class\Calculator.py" />
+    <Compile Include="33_Object\ClassPass.py" />
+    <Compile Include="13_ConditionalOperator\ConditionalOperator.py" />
+    <Compile Include="36_Constructor\Constructor.py" />
+    <Compile Include="36_Constructor\ConstructorParameter.py" />
+    <Compile Include="27_Collection\DictionaryDemo.py" />
+    <Compile Include="15_Else\ElIf.py" />
+    <Compile Include="15_Else\Else.py" />
+    <Compile Include="58_IO\FileReadLines.py" />
+    <Compile Include="58_IO\01_FileWrite\FileWrite.py" />
+    <Compile Include="59_Module\ImportModule\ImportModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="59_Module\ImportModule\ModuleDefinition.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="62_Modern\MatchCase.py" />
+    <Compile Include="99_Etc\FlaskHelloWorld.py" />
+    <Compile Include="17_For\For.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="17_For\ForDemo.py" />
+    <Compile Include="17_For\ForSum100.py" />
+    <Compile Include="19_Function\FunctionDemo.py" />
+    <Compile Include="19_Function\FunctionGlobal.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="19_Function\FunctionParameter.py" />
+    <Compile Include="19_Function\FunctionReturnValue.py" />
+    <Compile Include="19_Function\GetSumTwoNumber.py" />
+    <Compile Include="99_Etc\graph_dfs.py" />
+    <Compile Include="99_Etc\HeartTest.py" />
+    <Compile Include="03_HelloWorld\HelloWorld.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="03_HelloWorld\HelloWorld20170501.py" />
+    <Compile Include="14_If\If.py" />
+    <Compile Include="14_If\IfAnd.py" />
+    <Compile Include="14_If\IfDemo.py" />
+    <Compile Include="15_Else\IfElseFormat.py" />
+    <Compile Include="14_If\IfNested.py" />
+    <Compile Include="08_ReadLine\InputDemo.py" />
+    <Compile Include="08_ReadLine\IntFloat.py" />
+    <Compile Include="40_Lambda\LambdaFunction.py" />
+    <Compile Include="27_Collection\ListDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="19_Function\MaxFunction.py" />
+    <Compile Include="09_Operator\OperatorPlus.py" />
+    <Compile Include="36_Constructor\Person.py" />
+    <Compile Include="26_Class\PowerFunction.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="02_Tools\PyCharm.py" />
+    <Compile Include="03_HelloWorld\Python2018.py" />
+    <Compile Include="03_HelloWorld\PythonHello.py" />
+    <Compile Include="03_HelloWorld\PythonNote.py" />
+    <Compile Include="03_HelloWorld\PythonStart.py" />
+    <Compile Include="03_HelloWorld\Python_3_6_2.py" />
+    <Compile Include="26_Class\RandomDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="23_API\RandomModuleRandomFunction.py" />
+    <Compile Include="58_IO\02_ReadLines\ReadLines.py" />
+    <Compile Include="09_Operator\Remainder.py" />
+    <Compile Include="15_Else\ScoreGrade.py" />
+    <Compile Include="27_String\StringFunction2.py" />
+    <Compile Include="07_BoolCharString\StringInterpolationDemo.py" />
+    <Compile Include="13_ConditionalOperator\TernaryOperator.py" />
+    <Compile Include="58_IO\TextFileRead.py" />
+    <Compile Include="58_IO\TextFileCreate.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="33_Object\ToStringMethod.py" />
+    <Compile Include="28_Exception\Try.py" />
+    <Compile Include="28_Exception\TryExceptDemo.py" />
+    <Compile Include="19_Function\TypeHint.py" />
+    <Compile Include="18_While_Do_ForEach\While.py" />
+    <Compile Include="18_While_Do_ForEach\WhileDemo.py" />
+    <Compile Include="18_While_Do_ForEach\WhileFibonacci.py" />
+    <Compile Include="18_While_Do_ForEach\WhileLoop.py" />
+    <Compile Include="18_While_Do_ForEach\WhileSum.py" />
+    <Compile Include="19_Function\__name__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="05_Variable\변수.py" />
+    <Compile Include="08_ReadLine\이름입력받기.py" />
+    <Compile Include="15_Else\제어문_조건문.py" />
+    <Compile Include="19_Function\함수 정의 및 호출.py" />
+    <Compile Include="19_Function\함수_매개변수가 있는 함수.py" />
+    <Compile Include="19_Function\함수_반환값이 있는 함수.py" />
+    <Compile Include="99_Etc\sort_objects.py" />
+    <Compile Include="99_Etc\min_value_python.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="04_Syntax\FormatPractice\" />
+    <Folder Include="08_ReadLine\InputReadNumber\" />
+    <Folder Include="15_Else\" />
+    <Folder Include="19_Etc\" />
+    <Folder Include="14_If\" />
+    <Folder Include="27_String\StringClassNote\" />
+    <Folder Include="32_Algorithms\02_CountAlgorithm\" />
+    <Folder Include="32_Algorithms\03_AverageAlgorithm\" />
+    <Folder Include="32_Algorithms\04_MaxAlgorithm\" />
+    <Folder Include="32_Algorithms\05_MinAlgorithm\" />
+    <Folder Include="32_Algorithms\06_NearAlgorithm\" />
+    <Folder Include="32_Algorithms\07_RankAlgorithm\" />
+    <Folder Include="32_Algorithms\08_SortAlgorithm\" />
+    <Folder Include="32_Algorithms\09_SearchAlgorithm\" />
+    <Folder Include="32_Algorithms\10_MergeAlgorithm\" />
+    <Folder Include="32_Algorithms\11_ModeAlgorithm\" />
+    <Folder Include="32_Algorithms\12_GroupAlgorithm\" />
+    <Folder Include="32_Algorithms\ArithmeticSequence\" />
+    <Folder Include="33_Object\" />
+    <Folder Include="43_Inheritance\" />
+    <Folder Include="24_DateTime\" />
+    <Folder Include="50_Generic\DictionaryOfString\" />
+    <Folder Include="58_IO\" />
+    <Folder Include="26_Class\" />
+    <Folder Include="17_For\" />
+    <Folder Include="18_While_Do_ForEach\" />
+    <Folder Include="19_Function\" />
+    <Folder Include="20_Array\" />
+    <Folder Include="36_Constructor\" />
+    <Folder Include="03_HelloWorld\" />
+    <Folder Include="39_Indexer\" />
+    <Folder Include="38_Property\" />
+    <Folder Include="40_Lambda\" />
+    <Folder Include="13_ConditionalOperator\" />
+    <Folder Include="09_Operator\" />
+    <Folder Include="06_Number\" />
+    <Folder Include="27_String\" />
+    <Folder Include="05_Variable\" />
+    <Folder Include="08_ReadLine\" />
+    <Folder Include="27_Collection\" />
+    <Folder Include="02_Tools\" />
+    <Folder Include="28_Exception\" />
+    <Folder Include="58_IO\01_FileWrite\" />
+    <Folder Include="58_IO\02_ReadLines\" />
+    <Folder Include="32_Algorithms\" />
+    <Folder Include="07_BoolCharString\" />
+    <Folder Include="32_Algorithms\01_SumAlgorithm\" />
+    <Folder Include="01_Python\" />
+    <Folder Include="04_Syntax\" />
+    <Folder Include="16_Switch\" />
+    <Folder Include="10_AssignmentIncrement\" />
+    <Folder Include="11_RelationalLogical\" />
+    <Folder Include="12_BitAndShift\" />
+    <Folder Include="22_Interactive\" />
+    <Folder Include="23_API\" />
+    <Folder Include="25_Enum\" />
+    <Folder Include="30_GenericClass\" />
+    <Folder Include="31_LINQ\" />
+    <Folder Include="34_Namespace\" />
+    <Folder Include="35_Field\" />
+    <Folder Include="37_Destructor\" />
+    <Folder Include="41_Delegate\" />
+    <Folder Include="42_Event\" />
+    <Folder Include="43_ClassEtc\" />
+    <Folder Include="45_Override\" />
+    <Folder Include="59_Module\ImportModule\" />
+    <Folder Include="99_Etc\" />
+    <Folder Include="50_Generic\" />
+    <Folder Include="59_Module\" />
+    <Folder Include="37_Method\" />
+    <Folder Include="62_Modern\" />
+    <Folder Include="47_OOP\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="01_Python\ReadMe.txt" />
+    <Content Include="10_AssignmentIncrement\pass.txt" />
+    <Content Include="11_RelationalLogical\pass.txt" />
+    <Content Include="12_BitAndShift\pass.txt" />
+    <Content Include="16_Switch\pass.txt" />
+    <Content Include="17_For\ForDemo.py.txt" />
+    <Content Include="17_For\ForSum100.py.txt" />
+    <Content Include="19_Function\FunctionParameter.py.txt" />
+    <Content Include="19_Function\FunctionReturnValue.py.txt" />
+    <Content Include="22_Interactive\pass.txt" />
+    <Content Include="23_API\pass.txt" />
+    <Content Include="25_Enum\pass.txt" />
+    <Content Include="30_GenericClass\pass.txt" />
+    <Content Include="31_LINQ\pass.txt" />
+    <Content Include="32_Algorithms\학습용 쉬운 알고리즘 12개.txt" />
+    <Content Include="33_Object\ToStringDemo.txt" />
+    <Content Include="34_Namespace\pass.txt" />
+    <Content Include="35_Field\pass.txt" />
+    <Content Include="37_Destructor\pass.txt" />
+    <Content Include="41_Delegate\pass.txt" />
+    <Content Include="42_Event\pass.txt" />
+    <Content Include="43_ClassEtc\pass.txt" />
+    <Content Include="45_Override\pass.txt" />
+    <Content Include="Python 기초 입문.pdf" />
+    <Content Include="07_BoolCharString\PythonBoolDemo.txt" />
+    <Content Include="58_IO\02_ReadLines\abc1229.txt" />
+    <Content Include="18_While_Do_ForEach\WhileDemo.py.txt" />
+    <Content Include="18_While_Do_ForEach\WhileSum.py.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
